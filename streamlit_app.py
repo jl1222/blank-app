@@ -1,11 +1,4 @@
 import streamlit as st
-
-st.title("🎈 My new Streamlit app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
-
-import streamlit as st
 import google.generativeai as genai
 
 def generate_prompt(tool1, tool2, task):
